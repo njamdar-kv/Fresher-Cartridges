@@ -1,0 +1,6 @@
+<isinclude template="/components/modules"/>
+<iscomment> <iscontentasset aid="TrainingAsset" /> </iscomment>
+
+<iscomment> <isslot id="TrainingTestSlot" context="global" description="Training Test Slot" /> </iscomment>
+
+

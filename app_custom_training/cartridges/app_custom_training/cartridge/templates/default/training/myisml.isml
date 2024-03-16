@@ -1,0 +1,4 @@
+<div>
+    This is My custom Endpoint....!
+    <iscomment> <b>${pdict.myModel.message}</b> </iscomment>
+</div>

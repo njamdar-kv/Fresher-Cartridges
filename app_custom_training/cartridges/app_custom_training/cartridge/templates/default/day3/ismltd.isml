@@ -1,0 +1,33 @@
+<iscomment>
+    <h1>This is my day - 3 isml file </h1>
+</iscomment>
+
+<iscomment>
+    <h1>This is my day - 3 Hii ${pdict.name}</h1>
+</iscomment>
+
+<iscomment>
+    <isif condition="${!empty(pdict.name)}">
+        <h1>This is my day - 3 Hii ${pdict.name}</h1>
+    <iselse/>
+        <h2>This is my day - 3 - No name</h2>
+    </isif>
+</iscomment>
+
+<iscomment>
+    <isdecorate template="common/layout/page">
+        <h1>This is my day - 3 isml file ${pdict.name}</h1>
+    </isdecorate>
+</iscomment>
+
+<iscomment>
+    <isdecorate template="decorators/mydecorator">
+        <h1>This is my day - 3 isml file ${pdict.name}</h1>
+    </isdecorate>
+</iscomment>
+
+<isif condition="${!empty(pdict.name)}">
+    <h1>This is my day - 3 Hii ${pdict.name}</h1>
+<iselse/>
+    <h2>This is my day - 3 - No name</h2>
+</isif>

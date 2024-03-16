@@ -1,0 +1,7 @@
+
+    <isslot
+        id="cat-landing-test-sample"
+        context="category"
+        description="Banner at the top of Category Landing Pages"
+        context-object="${pdict.category}"
+    />

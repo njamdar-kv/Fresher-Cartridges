@@ -1,0 +1,18 @@
+<form action="${pdict.actionUrl}" method="POST" name="SFRAHelloForm">
+        <div class="form-group
+                ${pdict.Dropdown.hobbies.mandatory === true ? 'required' : ''}">
+    <label class="form-control-label" for="hobbies">
+        <isprint value="${pdict.SFRAnameform.hobbies.label}" encoding="htmlcontent" />
+    </label>
+    <select class="form-control" id="hobbies" <isprint value="${pdict.SFRAnameform.hobbies.attributes}" encoding="off" />>
+    <isloop items=${pdict.SFRAnameform.hobbies.options} var="hobbies">
+        <option id='${hobbies.id}' value="${hobbies.htmlValue}" <isif condition="${hobbies.selected}">selected</isif>>${hobbies.label}</option>
+        
+    </isloop>
+    </select>
+</div>
+    <input type="hidden" name="${pdict.csrf.tokenName}" value="${pdict.csrf.token}">
+
+    <button type="submit" class="btn btn-block btn-primary">Submit</button>
+    <button type="submit" class="btn btn-block btn-primary">Cancel</button>
+</form>

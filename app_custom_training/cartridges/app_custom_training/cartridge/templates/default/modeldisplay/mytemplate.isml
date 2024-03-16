@@ -1,0 +1,6 @@
+<!-- mytemplate.isml -->
+<div>
+    This is My Template....!
+    <br>
+    <b>${pdict.myModel.message}</b>
+</div>

@@ -1,0 +1,25 @@
+<style>
+    table {
+        border-collapse: collapse;
+        border-spacing: 10px; /* Adjust the spacing as needed */
+    }
+    th, td {
+        border: 1px solid black; /* Optional: Add borders for clarity */
+        padding: 15px; /* Add padding to cell content */
+    }
+</style>
+<table border="1">
+    <tr>
+        <th colspan="2">Form Data</th>
+    </tr>
+    <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+    </tr>
+    <tr>
+        <td>${pdict.firstName}</td>
+        <td>${pdict.lastName}</td>
+    </tr>
+</table>
+
+

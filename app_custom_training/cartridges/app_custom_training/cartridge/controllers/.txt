@@ -1,0 +1,10 @@
+Apparel Master Catalog
+ T-shirt - 160791 - Base Product
+    T-Shirt - White - 38 160792
+    T-Shirt - White - 39 160793
+    T-Shirt - Green - 38 160794
+    T-Shirt - Green - 38 160795
+
+    Sort by the inventory high stock availability 
+
+    Sort by inventory - ATS  value

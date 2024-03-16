@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<form xmlns="http://www.demandware.com/xml/form/2008-04-19">
+
+    <field formid="hobbies" label="Hobbies:" type="string" mandatory="true" max-length="10">
+        <options>
+            <option optionid="Select"  label="Select The Hobbies" value="Select Hobbies:"/>
+            <option optionid="Music"  label="Music" value="Music"/>
+            <option optionid="Gaming"  label="Gaming" value="Gaming"/>
+        </options>
+    </field>
+
+    <action formid="submit" valid-form="true"/>
+    <action formid="cancel" valid-form="true"/>
+</form>

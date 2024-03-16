@@ -1,0 +1,12 @@
+<form action="${pdict.actionURL}" method="POST" name="SFRAHelloForm">
+    <div class="form-group required">
+        <label>Occupation</label><br>
+        <input type="input" id="occupation" class="form-control" <isprint value="${pdict.SFRAhelloform.occupation.attributes}" encoding="off"/>><br><br>
+    </div>
+    <input type="hidden" name="${pdict.csrf.tokenName}" value="${pdict.csrf.token}">
+
+    <button type="submit" class="btn btn-block btn-primary">Submit</button>
+    <button type="submit" class="btn btn-block btn-primary">Cancel</button>
+    <iscomment> <p>${pdict.actionURL}</p> </iscomment>
+    
+</form>

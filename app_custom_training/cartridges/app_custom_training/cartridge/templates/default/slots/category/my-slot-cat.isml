@@ -1,0 +1,3 @@
+<isloop items="${slotcontent.content}" var="category">
+    <isprint value="${category.displayName}" encoding="htmlcontent" />
+</isloop>

@@ -1,0 +1,10 @@
+<body>
+
+    <h3>${Resource.msg('msg.passwordemail.dear', 'login', null)}&nbsp;${pdict.firstName}&nbsp;${pdict.lastName},</h3>
+    <p>Your custom mobile cover order with the name <b>${pdict.cname}</b> is on its way! 📱✨</p>
+    <p>Here's your exclusive discount for your next order:<b>${pdict.code}</b>.Enjoy <b>5% off!</b>on next order</p>
+    <p>Thank you for ordering. We can't wait to serve you again soon!</p>
+    <br>
+    <br>
+    <span>Best regards,</span>
+</body>
