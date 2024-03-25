@@ -54,7 +54,7 @@
                     </div>
                     <isif condition="${product.productName == 'Mobile-Covers-Base'}">
                         Enter the Name You want to print on Cover
-                        <div data-cname="aaaaaa">
+                        <div data-cname="">
                             <input type="text" id="cname" />
                         </div>
                     <iselse/>

@@ -1,0 +1,2 @@
+<isinclude template="/components/modules" sf-toolkit="on" />
+<isslot id="home-main-m" description="Main home page slot." context="global" />

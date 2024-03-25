@@ -1,0 +1,2 @@
+<isinclude template="/components/modules" sf-toolkit="on" />
+<isslot id="ExclusiveSaleMenu" description="ExclusiveSaleMenu" context="global" />

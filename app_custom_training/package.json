@@ -3,6 +3,14 @@
   "version": "0.0.1",
   "description": "New overlay cartridge",
   "main": "index.js",
+  "paths": {
+    "base":
+"../storefront-reference-architecture/cartridges/app_storefront_base/"
+,
+    "ratings": "../plugin_ratings/cartridges/plugin_ratings/",
+    "reviews": "../plugin_reviews/cartridges/plugin_reviews/",
+    "applepay": "../plugin-applepay/cartridges/plugin_applepay/"
+ },
   "scripts": {
     "lint": "sgmf-scripts --lint js && sgmf-scripts --lint css",
     "lint:fix": "sgmf-scripts --lint js --fix && sgmf-scripts --lint css --fix",

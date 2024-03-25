@@ -11,11 +11,9 @@ exports.execute = function (parameter, context) {
         var Logger = require('dw/system/Logger');
         // Get current date
         var currentDate = new Date();
-
         var coupons = CouponMgr.getCoupon('5% Off on next purchase');
         var query = 'creationDate > {0}';
         var ordersList = OrderMgr.queryOrders('status = {0}', 'creationDate DESC', 4);
-
         // Loop through the orders
         while (ordersList.hasNext()) {
             var order = ordersList.next();
@@ -28,7 +26,6 @@ exports.execute = function (parameter, context) {
                     cname = productLineItem.custom.cname;
                 }
             });
-
             var objectForEmail = {
                 firstName: firstName,
                 lastName: lastName,
@@ -44,10 +41,8 @@ exports.execute = function (parameter, context) {
             if (cname) {
                 emailHelpers.sendEmail(emailObj, 'coupon/coupon', objectForEmail);
             }
-
             Logger.debug('Processed order number {0}', order.orderNo);
         }
-
     } catch (error) {
         var err = error;
         throw err
